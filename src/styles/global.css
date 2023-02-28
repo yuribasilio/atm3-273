@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply transition-all;
+}
+body{
+  @apply flex justify-center items-center h-screen w-screen;
+}
